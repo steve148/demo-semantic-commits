@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "demo-semantic-commits"
+version = "0.1.0"
+description = ""
+authors = ["Lennox Stevenson <lennox.stevenson@perpetua.io>"]
+readme = "README.md"
+packages = [{include = "demo_semantic_commits"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
