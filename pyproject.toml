@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "demo-semantic-commits"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Lennox Stevenson <lennox.stevenson@perpetua.io>"]
 readme = "README.md"
@@ -22,3 +22,4 @@ build-backend = "poetry.core.masonry.api"
 [tool.semantic_release]
 version_toml = ["pyproject.toml:tool.poetry.version"]
 commit_subject = "chore: bump version to {version}"
+branch = "main"
